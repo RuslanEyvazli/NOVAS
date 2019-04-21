@@ -1,0 +1,83 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background: url(http://www.liberty.edu/media/1616/desktopbackgrounds/1920x1080-Hancock-v1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 650px; 
+}
+.Wrapper{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 5px;
+    color: whitesmoke;
+    font-family: Rubik,Lato,"Lucida Grande","Lucida Sans Unicode",Tahoma,Sans-Serif;
+    letter-spacing: 1px;
+    height: 100px;
+}
+.option{
+    border: none ;
+    background: none
+}
+ .RightHeader ul li select,.RightHeader ul li{
+    color: whitesmoke;
+    font-size: 15px;
+    margin-right: 15px;
+    font-family: Rubik,Lato,"Lucida Grande","Lucida Sans Unicode",Tahoma,Sans-Serif;
+    font-weight: bold;
+    letter-spacing: 1px
+}
+.RightHeader ul li select:hover,.RightHeader ul li:hover{
+    color: rgb(3, 3, 59)
+}
+.RightHeader{
+    margin-top: 15px ;
+    position: sticky;
+    top: 90%
+}
+ .LeftHeader ul li , .RightHeader ul li{
+     display: inline-block
+ }
+ .LeftHeader ul  li {
+     font-size: 40px;
+ }
+ .LeftHeader ul  li i{
+     padding-right: 5px
+ }
+ .section{
+     width: 80%;
+     padding-top: 100px;
+     margin: auto;
+     font-family: Rubik,Lato,"Lucida Grande","Lucida Sans Unicode",Tahoma,Sans-Serif;
+     color: whitesmoke
+ }
+ h1{
+     font-size: 40px
+ }
+ .section h1 span{
+     font-size: 40px;
+     font: bold
+ }
+ .FirstInput,.SecondInput{
+     margin-top: 70px;
+     font-size: 14px;
+     padding:15px;
+     border: none;
+     font:bold;
+     font-family: Rubik,Lato,"Lucida Grande","Lucida Sans Unicode",Tahoma,Sans-Serif;
+     
+ }
+ .SecondInput {
+     background: rgb(40, 105, 40);
+     color: whitesmoke;
+ }
+ .FirstInput{
+     color:rgb(44, 43, 43);
+     font: bold;
+     background: whitesmoke
+ }
