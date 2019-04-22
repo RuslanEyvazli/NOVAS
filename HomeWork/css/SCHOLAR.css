@@ -7,7 +7,11 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 650px; 
+    height: 950px; 
+}
+#Header{
+    position: sticky;
+    top: 0
 }
 .Wrapper{
     width: 80%;
@@ -37,8 +41,7 @@ body{
 }
 .RightHeader{
     margin-top: 15px ;
-    position: sticky;
-    top: 90%
+
 }
  .LeftHeader ul li , .RightHeader ul li{
      display: inline-block

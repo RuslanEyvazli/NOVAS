@@ -1,0 +1,70 @@
+div{
+width: 200px;
+height: 200px;
+background: violet;
+position: relative;
+float: left;
+margin-right: 300px;
+
+}
+.First{
+    animation: animationFirst 3s infinite;
+    animation-delay: 2.3s
+
+}
+.Second{
+    animation: animationSecond 3s infinite;
+    animation-delay: 2.5s
+}
+@keyframes animationFirst{
+    0%{
+        top:0;
+        left:0;
+        
+    }
+    25%{
+        top:0;
+        left:500px;
+        background: blueviolet
+    }
+    50%{
+        top:500px;
+        left:500px;
+    }
+    75%{
+        top:500px;
+        left:0;
+        background: rgb(103, 36, 167)
+    }
+    100%{
+        top:0;
+        left:0;
+
+    }
+}
+@keyframes animationSecond{
+    0%{
+        top:0;
+        left:0;
+        
+    }
+    25%{
+        top:500px;
+        left:0;
+        background: blueviolet
+    }
+    50%{
+        top:500px;
+        left:-500px;
+    }
+    75%{
+        top:0;
+        left:-500px;
+        background: rgb(103, 36, 167)
+    }
+    100%{
+        top:0;
+        left:0;
+
+    }
+}

@@ -1,0 +1,72 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+#Section{
+    width: 60%;
+    margin: auto;
+
+}
+.h{
+    margin-bottom:20px
+}
+.h h3{
+    font-family: "Great Vibes", cursive;
+    color: #c59d5f;
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px
+}
+.h h2{
+    color: #222222;
+    font-family: "Cardo", serif;
+    text-align: center;
+    font-weight: 900;
+    font-size: 60px ;
+     
+}
+.all{
+    display: flex;  
+}
+.item{
+    flex: 1;
+    margin: 15px;
+    position: relative
+}
+.item img{
+width: 100%;
+}
+.box{
+    background: #222222;
+    position: absolute;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.5;
+    display: none; 
+    color: white
+}
+.item:hover .box{
+    display: block
+}
+ a {
+     color: white
+ }
+.a{
+    border: 1px solid white;
+    border-radius: 50%;
+    color: white;
+    padding: 15px
+    
+}
+p{
+    color: white
+}
+li{
+    list-style: none
+}
+ul {
+    display: flex;
+    justify-content: space-around
+}
